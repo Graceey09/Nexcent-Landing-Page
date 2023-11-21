@@ -1,0 +1,206 @@
+*{
+    border: none;
+}
+:root{
+    --firstColor: #263238;
+    --secondColor: #18191F;
+    --color3: #4CAF4F;
+    --fourthColor: #4D4D4D;
+    --fifthColor: #FFFF;
+    --color6: #F5F7FA;
+    --seventhColor: #717171;
+    --eightColor: #89939E;
+    --ninthColor: #D9DBE1;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px;
+    background-color: var(--sixthColor);
+}
+.logo{
+    display: flex;
+    gap: 8px;
+}
+.logo{
+    width: 35px;
+    height: 24px;
+}
+/* .name{
+    color: var(--firstColor);
+    width: 111.49px;
+    height: 20.662px;
+    padding: 30px 30px;
+} */
+.nav-bar{
+    color: var(--secondColor);
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    background-color: var(--sixthColor);
+}
+.nav-bar p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: var(--sixthColor);
+}
+.register{
+    display: flex;
+    justify-content: right;
+    gap: 14px;
+    background-color: var(--sixthColor);
+}
+.log{
+    color: var(--color3);
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* background-color: var(--sixthColor); */
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 6px;
+    background-color: var(--color6);
+
+}
+
+.sign{
+    color: var(--fifthColor);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--color3);
+}
+
+.lessons{
+    align-self: stretch;
+    color: var(--fourthColor);
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.years{
+    color: #4CAF4F;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    margin-top: -60px;
+}
+.where{
+    margin-top: -40px;
+}
+
+.register2{
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--color3);
+    color: #FFFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.illus{
+    width: 391px;
+    height: 407px;
+    flex-direction: column;
+    background-color: var(--color6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+    align-self: stretch;
+}
+
+/* .part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+    gap: 104px;
+    align-self: stretch;
+    background-color: var(--color6);
+} */
+
+.our{
+    align-self: stretch;
+    color: var(--fourthColor);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.fortune{
+    align-self: stretch;
+    color: var(--seventhColor);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -30px;
+}
+
+.client-logo{
+    display: flex;
+    height: 98px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    /* margin-top: -10px; */
+}
+
+.community{
+    /* width: 542px; */
+    color: var(--fourthColor);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.suitable{
+    align-self: stretch;
+    color: var(--seventhColor);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -20px;
+}
